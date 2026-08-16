@@ -75,6 +75,10 @@ function getSignupFormErrors(firstname, email, password, confirmPassword) {
         passwordInput.classList.add("incorrect");
         confirmPasswordInput.classList.add("incorrect");
     }
+    if (password.length < 8) {
+        errors.push("Password must be at least 8 characters long.");
+        passwordInput.classList.add("incorrect");
+    }
 
     return errors;
 }
