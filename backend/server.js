@@ -8,20 +8,29 @@ const governmentRoutes = require("./routes/governmentRoutes");
 
 const app = express();
 
-app.use(cors());
+// Allow requests from the Next.js frontend
+app.use(
+    cors({
+        origin: "http://localhost:3000"
+    })
+);
+
 app.use(express.json());
 
+// API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/government", governmentRoutes);
 
-const PORT = process.env.PORT || 5000;
-
+// Health check
 app.get("/", (req, res) => {
     res.json({
         message: "Dome backend is running"
     });
 });
 
+const PORT = process.env.PORT || 5000;
+
+// Connect to MongoDB
 mongoose
     .connect(process.env.MONGODB_URI)
     .then(() => {
