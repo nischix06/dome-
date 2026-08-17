@@ -105,11 +105,13 @@ export default function SignupPage() {
       try {
         data = await res.json();
       } catch {
-        throw new Error("Unable to create your account. Please try again.");
+        throw new Error(
+          "Cannot connect to the backend server. Please verify your backend is running and BACKEND_URL is configured on Netlify."
+        );
       }
 
       if (!res.ok) {
-        setError(data.message || "Unable to create your account. Please try again.");
+        setError(data.message || "Registration failed. Please try again.");
         return;
       }
 
