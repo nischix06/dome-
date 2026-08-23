@@ -1,0 +1,477 @@
+[
+  {
+    "id": "DOM-001",
+    "title": "Smart Grid Transient Frequency Anomaly",
+    "description": "Sub-station 4B reported frequency fluctuation exceeding 1.2 Hz tolerance threshold. Automated load balancing initiated across Peenya industrial feeder.",
+    "category": "Infrastructure",
+    "status": "active",
+    "severity": "critical",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "date": "2026-08-23T11:45:00+05:30",
+    "source": {
+      "name": "KPTCL Sensor Node #104",
+      "url": "https://kptcl.karnataka.gov.in"
+    }
+  },
+  {
+    "id": "DOM-002",
+    "title": "Urban Flood Sensor Water Height Alert",
+    "description": "Storm water drainage telemetry near Mithi River reached 82% capacity following heavy monsoon precipitation. Sluice gates activated.",
+    "category": "Environment",
+    "status": "critical",
+    "severity": "critical",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.0760,
+      "lng": 72.8777
+    },
+    "date": "2026-08-23T09:15:00+05:30",
+    "source": {
+      "name": "MCGM Hydrological Sensor Network",
+      "url": "https://portal.mcgm.gov.in"
+    }
+  },
+  {
+    "id": "DOM-003",
+    "title": "Air Quality Index PM2.5 Spike Detected",
+    "description": "PM2.5 ambient levels escalated to 310 µg/m³ near Anand Vihar monitor station. Municipal smog towers switched to high filtration mode.",
+    "category": "Environment",
+    "status": "active",
+    "severity": "critical",
+    "location": {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "lat": 28.6139,
+      "lng": 77.2090
+    },
+    "date": "2026-08-23T08:30:00+05:30",
+    "source": {
+      "name": "CPCB Continuous Air Quality Monitoring",
+      "url": "https://cpcb.nic.in"
+    }
+  },
+  {
+    "id": "DOM-004",
+    "title": "High Density Express Corridor Bottleneck",
+    "description": "AI Traffic cameras registered 4.5 km traffic congestion on Outer Ring Road flyover near Gachibowli due to disabled heavy cargo container.",
+    "category": "Public Safety",
+    "status": "monitored",
+    "severity": "warning",
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.3850,
+      "lng": 78.4867
+    },
+    "date": "2026-08-23T07:10:00+05:30",
+    "source": {
+      "name": "Hyderabad Traffic Command Center",
+      "url": "https://hyderabadpolice.gov.in"
+    }
+  },
+  {
+    "id": "DOM-005",
+    "title": "Municipal Water Distribution Pressure Drop",
+    "description": "Anna Nagar primary feeder line registered a 45% hydraulic pressure drop near distribution reservoir #3. Field maintenance unit notified.",
+    "category": "Utilities",
+    "status": "active",
+    "severity": "warning",
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "date": "2026-08-22T21:40:00+05:30",
+    "source": {
+      "name": "CMWSSB Telemetry Node 89",
+      "url": "https://chennaimetrowater.tn.gov.in"
+    }
+  },
+  {
+    "id": "DOM-006",
+    "title": "Port Container Crane Synchronization Resolved",
+    "description": "Automated gantry crane sync issue resolved at Syama Prasad Mookerjee Port berth 12. Freight processing backlog clearing smoothly.",
+    "category": "Infrastructure",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    "date": "2026-08-22T16:20:00+05:30",
+    "source": {
+      "name": "Kolkata Port Trust Logistics Portal",
+      "url": "https://smportkolkata.shipping.gov.in"
+    }
+  },
+  {
+    "id": "DOM-007",
+    "title": "Solar Array Inverter Thermal Alert",
+    "description": "Charanka Solar Park inverter unit #7 offline following thermal relay trip. Secondary solar micro-grid maintaining baseline voltage output.",
+    "category": "Utilities",
+    "status": "monitored",
+    "severity": "warning",
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "lat": 23.0225,
+      "lng": 72.5714
+    },
+    "date": "2026-08-22T14:15:00+05:30",
+    "source": {
+      "name": "GEDA Renewable Energy Telemetry",
+      "url": "https://geda.gujarat.gov.in"
+    }
+  },
+  {
+    "id": "DOM-008",
+    "title": "Flyover Bridge Vibration Piezoelectric Audit",
+    "description": "Akurdi Flyover piezoelectric strain sensors logged minor resonance vibrations during heavy freight transit. Structural safety rating confirmed normal.",
+    "category": "Infrastructure",
+    "status": "monitored",
+    "severity": "info",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    "date": "2026-08-22T10:00:00+05:30",
+    "source": {
+      "name": "PCMC Civil Infrastructure Sensors",
+      "url": "https://pcmcindia.gov.in"
+    }
+  },
+  {
+    "id": "DOM-009",
+    "title": "Heritage Fort Micro-Seismic Survey",
+    "description": "Seismometer node near Amber Fort registered 1.2 micro-tremor event. Historical masonry structure alert level remains within safety threshold.",
+    "category": "Governance",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    "date": "2026-08-21T18:45:00+05:30",
+    "source": {
+      "name": "ASI Rajasthan Monitoring Division",
+      "url": "https://asi.nic.in"
+    }
+  },
+  {
+    "id": "DOM-010",
+    "title": "Brahmaputra River Gauging Station Alert",
+    "description": "Water discharge level at Pandu Ghat gauge station holding at 48.2m (Danger threshold 49.68m). River telemetry operational.",
+    "category": "Environment",
+    "status": "monitored",
+    "severity": "warning",
+    "location": {
+      "city": "Guwahati",
+      "state": "Assam",
+      "lat": 26.1445,
+      "lng": 91.7362
+    },
+    "date": "2026-08-23T12:00:00+05:30",
+    "source": {
+      "name": "CWC Brahmaputra Basin Division",
+      "url": "https://cwc.gov.in"
+    }
+  },
+  {
+    "id": "DOM-011",
+    "title": "Subway Rail Substation Transformer Sync",
+    "description": "Muttom depot traction power transformer sync sequence completed successfully. Commercial passenger transit operating at full frequency.",
+    "category": "Infrastructure",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Kochi",
+      "state": "Kerala",
+      "lat": 9.9312,
+      "lng": 76.2673
+    },
+    "date": "2026-08-23T10:15:00+05:30",
+    "source": {
+      "name": "KMRL Operations Center",
+      "url": "https://kochimetro.org"
+    }
+  },
+  {
+    "id": "DOM-012",
+    "title": "Smart Civic Lighting Node Interruption",
+    "description": "Sector 17 Commercial Plaza lighting controller offline. Secondary automated timers engaged while maintenance repair is underway.",
+    "category": "Utilities",
+    "status": "active",
+    "severity": "warning",
+    "location": {
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "lat": 30.7333,
+      "lng": 76.7794
+    },
+    "date": "2026-08-23T06:50:00+05:30",
+    "source": {
+      "name": "Chandigarh Smart City Command",
+      "url": "https://chandigarhsmartcity.in"
+    }
+  },
+  {
+    "id": "DOM-013",
+    "title": "Expressway SOS Relay Box Activation",
+    "description": "Yamuna Expressway km 84 emergency callbox engaged. Highway patrol unit dispatched for roadside mechanical assistance.",
+    "category": "Public Safety",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.8467,
+      "lng": 80.9462
+    },
+    "date": "2026-08-22T08:15:00+05:30",
+    "source": {
+      "name": "UPEIDA Expressway Control",
+      "url": "https://upeida.up.gov.in"
+    }
+  },
+  {
+    "id": "DOM-014",
+    "title": "Industrial Zone Effluent Chemical Warning",
+    "description": "Chemical Oxygen Demand (COD) continuous monitor alert at Mandideep industrial outlet #2. Automatic isolation valves triggered.",
+    "category": "Environment",
+    "status": "critical",
+    "severity": "critical",
+    "location": {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "lat": 23.2599,
+      "lng": 77.4126
+    },
+    "date": "2026-08-23T05:30:00+05:30",
+    "source": {
+      "name": "MPPCB Real-Time Effluent Monitor",
+      "url": "https://mppcb.mp.gov.in"
+    }
+  },
+  {
+    "id": "DOM-015",
+    "title": "River Basin Dissolved Oxygen Telemetry",
+    "description": "Dissolved Oxygen (DO) level at Digha Ghat river monitoring buoy holding steady at 6.8 mg/L. Bio-indicator parameters verified.",
+    "category": "Environment",
+    "status": "monitored",
+    "severity": "info",
+    "location": {
+      "city": "Patna",
+      "state": "Bihar",
+      "lat": 25.5941,
+      "lng": 85.1376
+    },
+    "date": "2026-08-21T12:00:00+05:30",
+    "source": {
+      "name": "NMCG National Mission Ganga Telemetry",
+      "url": "https://nmcg.nic.in"
+    }
+  },
+  {
+    "id": "DOM-016",
+    "title": "Coastal Storm Surge Gauge Telemetry",
+    "description": "Paradip Port tide gauge sensor registered 0.4m sea level surge following regional depression. Coastal guard monitoring active.",
+    "category": "Environment",
+    "status": "monitored",
+    "severity": "warning",
+    "location": {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "lat": 20.2961,
+      "lng": 85.8245
+    },
+    "date": "2026-08-23T11:00:00+05:30",
+    "source": {
+      "name": "INCOIS Coastal Warning System",
+      "url": "https://incois.gov.in"
+    }
+  },
+  {
+    "id": "DOM-017",
+    "title": "Deepwater Port Dock Cargo Crane Calibration",
+    "description": "Visakhapatnam Port outer harbor container berth 4 automated telemetry check completed. Freight turnover on schedule.",
+    "category": "Infrastructure",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "lat": 17.6868,
+      "lng": 83.2185
+    },
+    "date": "2026-08-22T19:30:00+05:30",
+    "source": {
+      "name": "Visakhapatnam Port Authority",
+      "url": "https://vizagport.com"
+    }
+  },
+  {
+    "id": "DOM-018",
+    "title": "Textile Industrial Park Power Distribution Relay",
+    "description": "Sub-station 220kV feeder line relay trip near Sachin Industrial Area. Backup transformer feed engaged within 180 seconds.",
+    "category": "Utilities",
+    "status": "active",
+    "severity": "warning",
+    "location": {
+      "city": "Surat",
+      "state": "Gujarat",
+      "lat": 21.1702,
+      "lng": 72.8311
+    },
+    "date": "2026-08-23T04:15:00+05:30",
+    "source": {
+      "name": "GETCO Power Grid Management",
+      "url": "https://getcogujarat.com"
+    }
+  },
+  {
+    "id": "DOM-019",
+    "title": "Hill Highway Landslide Warning Node Active",
+    "description": "NH-58 slope displacement sensor near Rishikesh logged 12mm ground movement following rain. Traffic speed restricted to 20 km/h.",
+    "category": "Public Safety",
+    "status": "critical",
+    "severity": "critical",
+    "location": {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "lat": 30.3165,
+      "lng": 78.0322
+    },
+    "date": "2026-08-23T08:00:00+05:30",
+    "source": {
+      "name": "UKSDMA Hill Highway Safety Division",
+      "url": "https://usdma.uk.gov.in"
+    }
+  },
+  {
+    "id": "DOM-020",
+    "title": "Steel Industrial Zone Stack Emission Monitor",
+    "description": "Continuous Emission Monitoring System (CEMS) registered SO2 level of 420 mg/m3 at blast furnace #2. Scrubber efficiency recalibrated.",
+    "category": "Environment",
+    "status": "active",
+    "severity": "warning",
+    "location": {
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "lat": 23.3441,
+      "lng": 85.3096
+    },
+    "date": "2026-08-22T22:10:00+05:30",
+    "source": {
+      "name": "JSPCB Online Emission Portal",
+      "url": "https://jspcb.nic.in"
+    }
+  },
+  {
+    "id": "DOM-021",
+    "title": "Metropolitan Expressway Smart Traffic Barrier Sync",
+    "description": "Vidyapeeth square automated tidal traffic lane barrier barrier sync verified. Morning peak hour lane distribution operational.",
+    "category": "Infrastructure",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "lat": 22.7196,
+      "lng": 75.8577
+    },
+    "date": "2026-08-23T07:45:00+05:30",
+    "source": {
+      "name": "Indore Smart City Development Ltd",
+      "url": "https://smartcityindore.org"
+    }
+  },
+  {
+    "id": "DOM-022",
+    "title": "Mountain Highway Weather Sensor Icing Alert",
+    "description": "Kufri pass road surface freezing temperature sensor reached -1.5°C. Automated salt spreader truck deployed to clear corridor.",
+    "category": "Public Safety",
+    "status": "monitored",
+    "severity": "info",
+    "location": {
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "lat": 31.1048,
+      "lng": 77.1734
+    },
+    "date": "2026-08-22T15:20:00+05:30",
+    "source": {
+      "name": "HP PWD Disaster Management Cell",
+      "url": "https://hppwd.hp.gov.in"
+    }
+  },
+  {
+    "id": "DOM-023",
+    "title": "Central City Water Quality Sensor Telemetry",
+    "description": "Futala Lake automated water monitoring buoy recorded pH 7.4, turbidity 4.2 NTU. Water quality parameters green.",
+    "category": "Governance",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1458,
+      "lng": 79.0882
+    },
+    "date": "2026-08-21T16:00:00+05:30",
+    "source": {
+      "name": "NMC Nagpur Smart City Telemetry",
+      "url": "https://nmc.nagpur.gov.in"
+    }
+  },
+  {
+    "id": "DOM-024",
+    "title": "Valley Power Grid Micro-Feeder Test",
+    "description": "Bemina sub-station 33kV insulation testing completed without ground leakage. Feeder re-energized for normal regional load.",
+    "category": "Utilities",
+    "status": "resolved",
+    "severity": "info",
+    "location": {
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "lat": 34.0837,
+      "lng": 74.7973
+    },
+    "date": "2026-08-22T13:40:00+05:30",
+    "source": {
+      "name": "JKPDD Kashmir Distribution Corp",
+      "url": "https://jkpdd.gov.in"
+    }
+  },
+  {
+    "id": "DOM-025",
+    "title": "Chemical Industrial Corridor Pipeline Gas Sensor",
+    "description": "Continuous VOC sniffer node at Dahej GIDC zone registered minor trace detection (3 ppm). Secondary vapor recovery unit engaged.",
+    "category": "Environment",
+    "status": "monitored",
+    "severity": "warning",
+    "location": {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "lat": 22.3072,
+      "lng": 73.1812
+    },
+    "date": "2026-08-23T10:00:00+05:30",
+    "source": {
+      "name": "GIDC Safety & Environment Network",
+      "url": "https://gidc.gujarat.gov.in"
+    }
+  }
+]

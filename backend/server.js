@@ -23,6 +23,14 @@ app.get("/", (req, res) => {
     });
 });
 
+// Front-end diagnostics endpoint
+app.post("/api/debug", (req, res) => {
+    console.log("\n--- DOME FRONTEND DEBUG REPORT ---");
+    console.log(req.body.message);
+    console.log("----------------------------------\n");
+    res.json({ success: true });
+});
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, "0.0.0.0", () => {
