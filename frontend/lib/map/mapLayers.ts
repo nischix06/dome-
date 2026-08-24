@@ -63,6 +63,22 @@ export interface DomeMapLayer {
 
 export const MAP_LAYERS: DomeMapLayer[] = [
   {
+    id: "incidents",
+    label: "Incidents",
+    icon: "⚠️",
+    type: "point",
+    sourceType: "geojson",
+    available: true,
+    description: "Active disaster signals and field incident markers.",
+    mapSourceIds: ["signals-source"],
+    mapLayerIds: [
+      "clusters",
+      "cluster-count",
+      "unclustered-point-glow",
+      "unclustered-point-core",
+    ],
+  },
+  {
     id: "landslide-risk",
     label: "Landslide Risk",
     icon: "🌋",

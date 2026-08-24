@@ -58,8 +58,8 @@ export default function MapLayerControl({
 
           <div className={styles.layerSeparator} />
 
-          {/* Individual Layers */}
-          {MAP_LAYERS.map((layer) => (
+          {/* Individual Layers - Only available active layers */}
+          {MAP_LAYERS.filter((layer) => layer.available).map((layer) => (
             <MapLayerItem
               key={layer.id}
               layer={layer}
