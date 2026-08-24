@@ -25,10 +25,10 @@
     {
       "id": "ST-ARU0",
       "name": "Arunachal Pradesh",
-      "region": "Simulated",
-      "population": 1963404,
-      "area_sqkm": 19737,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 1600000,
+      "area_sqkm": 83743,
+      "capital": "Itanagar",
       "overall_status": "Warning",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.120Z"
@@ -36,10 +36,10 @@
     {
       "id": "ST-ASS1",
       "name": "Assam",
-      "region": "Simulated",
-      "population": 15063468,
-      "area_sqkm": 26415,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 35600000,
+      "area_sqkm": 78438,
+      "capital": "Dispur",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.121Z"
@@ -47,10 +47,10 @@
     {
       "id": "ST-CHA2",
       "name": "Chandigarh",
-      "region": "Simulated",
-      "population": 43501428,
-      "area_sqkm": 38286,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 1200000,
+      "area_sqkm": 114,
+      "capital": "Chandigarh",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.121Z"
@@ -58,10 +58,10 @@
     {
       "id": "ST-MAN4",
       "name": "Manipur",
-      "region": "Simulated",
-      "population": 7372152,
-      "area_sqkm": 78736,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 3100000,
+      "area_sqkm": 22327,
+      "capital": "Imphal",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.121Z"
@@ -69,10 +69,10 @@
     {
       "id": "ST-MEG5",
       "name": "Meghalaya",
-      "region": "Simulated",
-      "population": 21188055,
-      "area_sqkm": 24189,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 3800000,
+      "area_sqkm": 22429,
+      "capital": "Shillong",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.121Z"
@@ -80,10 +80,10 @@
     {
       "id": "ST-MIZ6",
       "name": "Mizoram",
-      "region": "Simulated",
-      "population": 40245518,
-      "area_sqkm": 46045,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 1200000,
+      "area_sqkm": 21081,
+      "capital": "Aizawl",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -91,10 +91,10 @@
     {
       "id": "ST-NAG7",
       "name": "Nagaland",
-      "region": "Simulated",
-      "population": 48282380,
-      "area_sqkm": 32294,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 2300000,
+      "area_sqkm": 16579,
+      "capital": "Kohima",
       "overall_status": "Warning",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -102,10 +102,10 @@
     {
       "id": "ST-PUN8",
       "name": "Punjab",
-      "region": "Simulated",
-      "population": 13287040,
-      "area_sqkm": 8159,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 31100000,
+      "area_sqkm": 50362,
+      "capital": "Chandigarh",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -113,10 +113,10 @@
     {
       "id": "ST-RAJ9",
       "name": "Rajasthan",
-      "region": "Simulated",
-      "population": 4200651,
-      "area_sqkm": 92516,
-      "capital": "Simulated Capital",
+      "region": "West",
+      "population": 81000000,
+      "area_sqkm": 342239,
+      "capital": "Jaipur",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -124,10 +124,10 @@
     {
       "id": "ST-SIK10",
       "name": "Sikkim",
-      "region": "Simulated",
-      "population": 12565094,
-      "area_sqkm": 72624,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 690000,
+      "area_sqkm": 7096,
+      "capital": "Gangtok",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -135,10 +135,10 @@
     {
       "id": "ST-TRI11",
       "name": "Tripura",
-      "region": "Simulated",
-      "population": 40216713,
-      "area_sqkm": 70587,
-      "capital": "Simulated Capital",
+      "region": "Northeast",
+      "population": 4200000,
+      "area_sqkm": 10486,
+      "capital": "Agartala",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -146,10 +146,10 @@
     {
       "id": "ST-UTT12",
       "name": "Uttarakhand",
-      "region": "Simulated",
-      "population": 5004969,
-      "area_sqkm": 14285,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 11400000,
+      "area_sqkm": 53483,
+      "capital": "Dehradun",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -157,10 +157,10 @@
     {
       "id": "ST-TEL13",
       "name": "Telangana",
-      "region": "Simulated",
-      "population": 7182866,
-      "area_sqkm": 14808,
-      "capital": "Simulated Capital",
+      "region": "South",
+      "population": 39400000,
+      "area_sqkm": 112077,
+      "capital": "Hyderabad",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -168,10 +168,10 @@
     {
       "id": "ST-BIH14",
       "name": "Bihar",
-      "region": "Simulated",
-      "population": 18653787,
-      "area_sqkm": 94944,
-      "capital": "Simulated Capital",
+      "region": "East",
+      "population": 124000000,
+      "area_sqkm": 94163,
+      "capital": "Patna",
       "overall_status": "Warning",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -179,10 +179,10 @@
     {
       "id": "ST-KER15",
       "name": "Kerala",
-      "region": "Simulated",
-      "population": 35520194,
-      "area_sqkm": 43043,
-      "capital": "Simulated Capital",
+      "region": "South",
+      "population": 35600000,
+      "area_sqkm": 38863,
+      "capital": "Thiruvananthapuram",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -190,10 +190,10 @@
     {
       "id": "ST-MAD16",
       "name": "Madhya Pradesh",
-      "region": "Simulated",
-      "population": 20455588,
-      "area_sqkm": 100627,
-      "capital": "Simulated Capital",
+      "region": "Central",
+      "population": 85000000,
+      "area_sqkm": 308252,
+      "capital": "Bhopal",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -212,10 +212,10 @@
     {
       "id": "ST-GUJ18",
       "name": "Gujarat",
-      "region": "Simulated",
-      "population": 29413088,
-      "area_sqkm": 8974,
-      "capital": "Simulated Capital",
+      "region": "West",
+      "population": 63800000,
+      "area_sqkm": 196024,
+      "capital": "Gandhinagar",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -234,10 +234,10 @@
     {
       "id": "ST-ODI20",
       "name": "Odisha",
-      "region": "Simulated",
-      "population": 32243638,
-      "area_sqkm": 41909,
-      "capital": "Simulated Capital",
+      "region": "East",
+      "population": 46300000,
+      "area_sqkm": 155707,
+      "capital": "Bhubaneswar",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -256,10 +256,10 @@
     {
       "id": "ST-LAD22",
       "name": "Ladakh",
-      "region": "Simulated",
-      "population": 37568357,
-      "area_sqkm": 77598,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 290000,
+      "area_sqkm": 59146,
+      "capital": "Leh",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -267,10 +267,10 @@
     {
       "id": "ST-JAM23",
       "name": "Jammu & Kashmir",
-      "region": "Simulated",
-      "population": 39495376,
-      "area_sqkm": 94088,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 13600000,
+      "area_sqkm": 42241,
+      "capital": "Srinagar",
       "overall_status": "Warning",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -278,10 +278,10 @@
     {
       "id": "ST-CHH24",
       "name": "Chhattisgarh",
-      "region": "Simulated",
-      "population": 11511286,
-      "area_sqkm": 9488,
-      "capital": "Simulated Capital",
+      "region": "Central",
+      "population": 29400000,
+      "area_sqkm": 135192,
+      "capital": "Raipur",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -289,10 +289,10 @@
     {
       "id": "ST-DEL25",
       "name": "Delhi",
-      "region": "Simulated",
-      "population": 22159356,
-      "area_sqkm": 80188,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 20000000,
+      "area_sqkm": 1484,
+      "capital": "New Delhi",
       "overall_status": "Warning",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -300,10 +300,10 @@
     {
       "id": "ST-GOA26",
       "name": "Goa",
-      "region": "Simulated",
-      "population": 41683479,
-      "area_sqkm": 50131,
-      "capital": "Simulated Capital",
+      "region": "West",
+      "population": 1540000,
+      "area_sqkm": 3702,
+      "capital": "Panaji",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -311,10 +311,10 @@
     {
       "id": "ST-HAR27",
       "name": "Haryana",
-      "region": "Simulated",
-      "population": 33078769,
-      "area_sqkm": 5197,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 29000000,
+      "area_sqkm": 44212,
+      "capital": "Chandigarh",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -322,10 +322,10 @@
     {
       "id": "ST-HIM28",
       "name": "Himachal Pradesh",
-      "region": "Simulated",
-      "population": 33013053,
-      "area_sqkm": 91468,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 7300000,
+      "area_sqkm": 55673,
+      "capital": "Shimla",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -333,10 +333,10 @@
     {
       "id": "ST-JHA29",
       "name": "Jharkhand",
-      "region": "Simulated",
-      "population": 25747546,
-      "area_sqkm": 53462,
-      "capital": "Simulated Capital",
+      "region": "East",
+      "population": 39300000,
+      "area_sqkm": 79714,
+      "capital": "Ranchi",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -344,10 +344,10 @@
     {
       "id": "ST-TAM30",
       "name": "Tamil Nadu",
-      "region": "Simulated",
-      "population": 3836625,
-      "area_sqkm": 58046,
-      "capital": "Simulated Capital",
+      "region": "South",
+      "population": 77800000,
+      "area_sqkm": 130058,
+      "capital": "Chennai",
       "overall_status": "Normal",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -355,10 +355,10 @@
     {
       "id": "ST-UTT31",
       "name": "Uttar Pradesh",
-      "region": "Simulated",
-      "population": 36801925,
-      "area_sqkm": 18133,
-      "capital": "Simulated Capital",
+      "region": "North",
+      "population": 231500000,
+      "area_sqkm": 240928,
+      "capital": "Lucknow",
       "overall_status": "Normal",
       "active_alerts_count": 0,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -366,10 +366,10 @@
     {
       "id": "ST-WES32",
       "name": "West Bengal",
-      "region": "Simulated",
-      "population": 17465166,
-      "area_sqkm": 58906,
-      "capital": "Simulated Capital",
+      "region": "East",
+      "population": 99800000,
+      "area_sqkm": 88752,
+      "capital": "Kolkata",
       "overall_status": "Normal",
       "active_alerts_count": 1,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -377,10 +377,10 @@
     {
       "id": "ST-AND33",
       "name": "Andhra Pradesh",
-      "region": "Simulated",
-      "population": 6447954,
-      "area_sqkm": 4676,
-      "capital": "Simulated Capital",
+      "region": "South",
+      "population": 53000000,
+      "area_sqkm": 162968,
+      "capital": "Amaravati",
       "overall_status": "Warning",
       "active_alerts_count": 2,
       "last_updated": "2026-08-24T14:02:52.122Z"
@@ -874,6 +874,20 @@
       "state_name": "Puducherry",
       "precipitation_mm": 63,
       "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-MH",
+      "state_id": "ST-MH",
+      "state_name": "Maharashtra",
+      "precipitation_mm": 142,
+      "observation_date": "2026-08-24T15:17:50.970Z"
+    },
+    {
+      "id": "RN-KA",
+      "state_id": "ST-KA",
+      "state_name": "Karnataka",
+      "precipitation_mm": 98,
+      "observation_date": "2026-08-24T15:17:50.971Z"
     }
   ],
   "LandslideEvent": [
