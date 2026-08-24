@@ -109,7 +109,7 @@ export default function StateIntelligencePanel({ stateName, onClose }: StateInte
 
   const getSeverityClass = (severity: string) => {
     const s = severity.toLowerCase();
-    if (s === "critical" || s === "severe") return styles.severityCritical;
+    if (s === "critical" || s === "severe" || s === "very high") return styles.severityCritical;
     if (s === "warning" || s === "high") return styles.severityWarning;
     return styles.severityInfo;
   };
@@ -147,12 +147,65 @@ export default function StateIntelligencePanel({ stateName, onClose }: StateInte
 
   // Calculate population at risk dynamically
   const riskRatio = profile.overall_status === "Critical" ? 0.045 : profile.overall_status === "Warning" ? 0.018 : 0.004;
-  const popAtRisk = ((profile.population * riskRatio) / 1000000).toFixed(2);
+  const popAtRiskNum = (profile.population * riskRatio) / 1000000;
+  const popAtRisk = popAtRiskNum.toFixed(2);
 
   // Anomaly calculation
-  const anomalyText = historicalRainfall.length > 0 && historicalRainfall[0].anomaly_percent
-    ? `${historicalRainfall[0].anomaly_percent > 0 ? "+" : ""}${historicalRainfall[0].anomaly_percent}% vs normal`
+  const anomalyPercent = historicalRainfall.length > 0 ? historicalRainfall[0].anomaly_percent : null;
+  const anomalyText = anomalyPercent !== null
+    ? `${anomalyPercent > 0 ? "+" : ""}${anomalyPercent}% vs normal`
     : null;
+
+  // Degraded assets
+  const degradedCount = infrastructure.filter(inf => inf.status === "degraded" || inf.status === "offline").length;
+
+  // Hilly classification
+  const isHilly = profile.region === "Northeast" || profile.region === "North";
+
+  // Qualitative Risk Profile Levels
+  const precipMM = rainfall.length > 0 ? rainfall[0].precipitation_mm : 0;
+  const rainfallRiskLevel = precipMM > 100 ? "VERY HIGH" : precipMM > 70 ? "HIGH" : precipMM > 40 ? "MODERATE" : "LOW";
+  const landslideRiskLevel = landslides.length >= 4 ? "VERY HIGH" : landslides.length >= 2 ? "HIGH" : landslides.length === 1 ? "MODERATE" : "LOW";
+  const infraRiskLevel = degradedCount > 0 ? "HIGH" : infrastructure.length >= 3 ? "MODERATE" : "LOW";
+  const popRiskLevel = popAtRiskNum >= 2.0 ? "VERY HIGH" : popAtRiskNum >= 0.8 ? "HIGH" : popAtRiskNum >= 0.2 ? "MODERATE" : "LOW";
+
+  // Generate Risk Explanation Bullet Points Deterministically
+  const isAtRisk = profile.overall_status === "Critical" || profile.overall_status === "Warning";
+  const bullets: string[] = [];
+
+  if (isAtRisk) {
+    if (anomalyPercent !== null && anomalyPercent > 0) {
+      bullets.push(`Rainfall is ${anomalyPercent}% above normal (${precipMM} mm)`);
+    } else if (rainfall.length > 0) {
+      bullets.push(`Rainfall intensity recorded at ${precipMM} mm`);
+    }
+
+    if (landslides.length > 0) {
+      bullets.push(`${landslides.length} landslide event${landslides.length > 1 ? "s" : ""} in the last 30 days`);
+    } else if (isHilly) {
+      bullets.push(`Mountainous terrain elevates geological vulnerability`);
+    }
+
+    if (degradedCount > 0) {
+      bullets.push(`${degradedCount} critical infrastructure asset${degradedCount > 1 ? "s" : ""} degraded or exposed`);
+    } else if (infrastructure.length > 0) {
+      bullets.push(`${infrastructure.length} critical infrastructure assets monitored in risk zones`);
+    }
+
+    bullets.push(`${popAtRisk}M people in affected zones`);
+
+    if (alerts.length > 0) {
+      bullets.push(`${alerts.length} active emergency alert${alerts.length > 1 ? "s" : ""} in effect`);
+    }
+  } else {
+    bullets.push("Rainfall within normal seasonal range");
+    bullets.push("No significant landslide activity");
+    bullets.push("No active infrastructure disruption");
+    bullets.push("Population exposure within baseline safety bounds");
+    if (alerts.length === 0) {
+      bullets.push("No active emergency alerts");
+    }
+  }
 
   /* ─── Main panel ─── */
   return (
@@ -203,6 +256,44 @@ export default function StateIntelligencePanel({ stateName, onClose }: StateInte
             <div>
               {label("Population at Risk")}
               {val(`${popAtRisk}M`)}
+            </div>
+          </div>
+        </div>
+
+        {/* ── STEP 1: WHY THIS STATE IS AT RISK / CURRENT RISK DRIVERS ── */}
+        <div className={styles.detailSection}>
+          <div className={styles.detailSectionLabel}>
+            {isAtRisk ? "WHY THIS STATE IS AT RISK" : "CURRENT RISK DRIVERS"}
+          </div>
+          <div style={{ marginTop: "8px", display: "flex", flexDirection: "column", gap: "6px" }}>
+            {bullets.map((bullet, idx) => (
+              <div key={`b-${idx}`} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "0.8rem", color: "#cbd5e1" }}>
+                <span style={{ color: isAtRisk ? "#ffaa00" : "#3fe0b0", fontSize: "0.9rem", lineHeight: 1 }}>●</span>
+                <span>{bullet}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ── STEP 2: RISK PROFILE ── */}
+        <div className={styles.detailSection}>
+          <div className={styles.detailSectionLabel}>RISK PROFILE</div>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "10px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 8px", background: "rgba(255,255,255,0.03)", borderRadius: "4px" }}>
+              <span style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Rainfall</span>
+              <span className={`${styles.categoryTag} ${getSeverityClass(rainfallRiskLevel)}`} style={{ fontSize: "0.65rem", padding: "2px 6px" }}>{rainfallRiskLevel}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 8px", background: "rgba(255,255,255,0.03)", borderRadius: "4px" }}>
+              <span style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Landslides</span>
+              <span className={`${styles.categoryTag} ${getSeverityClass(landslideRiskLevel)}`} style={{ fontSize: "0.65rem", padding: "2px 6px" }}>{landslideRiskLevel}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 8px", background: "rgba(255,255,255,0.03)", borderRadius: "4px" }}>
+              <span style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Infrastructure</span>
+              <span className={`${styles.categoryTag} ${getSeverityClass(infraRiskLevel)}`} style={{ fontSize: "0.65rem", padding: "2px 6px" }}>{infraRiskLevel}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "6px 8px", background: "rgba(255,255,255,0.03)", borderRadius: "4px" }}>
+              <span style={{ fontSize: "0.75rem", color: "#94a3b8" }}>Population</span>
+              <span className={`${styles.categoryTag} ${getSeverityClass(popRiskLevel)}`} style={{ fontSize: "0.65rem", padding: "2px 6px" }}>{popRiskLevel}</span>
             </div>
           </div>
         </div>
@@ -273,7 +364,7 @@ export default function StateIntelligencePanel({ stateName, onClose }: StateInte
           <div style={{ marginTop: "8px" }}>
             {label("Terrain Exposure")}
             <span style={{ color: "#94a3b8", fontWeight: 400, fontSize: "0.8rem" }}>
-              {profile.region === "Northeast" || profile.region === "North" ? "Mountainous / High Susceptibility" : "Plateau / Coastal Corridor"}
+              {isHilly ? "Mountainous / High Susceptibility" : "Plateau / Coastal Corridor"}
             </span>
           </div>
         </Section>
