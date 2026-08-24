@@ -1,0 +1,4342 @@
+{
+  "StateProfile": [
+    {
+      "id": "ST-KA",
+      "name": "Karnataka",
+      "region": "South",
+      "population": 61095297,
+      "area_sqkm": 191791,
+      "capital": "Bengaluru",
+      "overall_status": "Warning",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T12:00:00Z"
+    },
+    {
+      "id": "ST-MH",
+      "name": "Maharashtra",
+      "region": "West",
+      "population": 112374333,
+      "area_sqkm": 307713,
+      "capital": "Mumbai",
+      "overall_status": "Critical",
+      "active_alerts_count": 5,
+      "last_updated": "2026-08-24T12:00:00Z"
+    },
+    {
+      "id": "ST-ARU0",
+      "name": "Arunachal Pradesh",
+      "region": "Simulated",
+      "population": 1963404,
+      "area_sqkm": 19737,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.120Z"
+    },
+    {
+      "id": "ST-ASS1",
+      "name": "Assam",
+      "region": "Simulated",
+      "population": 15063468,
+      "area_sqkm": 26415,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "ST-CHA2",
+      "name": "Chandigarh",
+      "region": "Simulated",
+      "population": 43501428,
+      "area_sqkm": 38286,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "ST-MAN4",
+      "name": "Manipur",
+      "region": "Simulated",
+      "population": 7372152,
+      "area_sqkm": 78736,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "ST-MEG5",
+      "name": "Meghalaya",
+      "region": "Simulated",
+      "population": 21188055,
+      "area_sqkm": 24189,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "ST-MIZ6",
+      "name": "Mizoram",
+      "region": "Simulated",
+      "population": 40245518,
+      "area_sqkm": 46045,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-NAG7",
+      "name": "Nagaland",
+      "region": "Simulated",
+      "population": 48282380,
+      "area_sqkm": 32294,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-PUN8",
+      "name": "Punjab",
+      "region": "Simulated",
+      "population": 13287040,
+      "area_sqkm": 8159,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-RAJ9",
+      "name": "Rajasthan",
+      "region": "Simulated",
+      "population": 4200651,
+      "area_sqkm": 92516,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-SIK10",
+      "name": "Sikkim",
+      "region": "Simulated",
+      "population": 12565094,
+      "area_sqkm": 72624,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-TRI11",
+      "name": "Tripura",
+      "region": "Simulated",
+      "population": 40216713,
+      "area_sqkm": 70587,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-UTT12",
+      "name": "Uttarakhand",
+      "region": "Simulated",
+      "population": 5004969,
+      "area_sqkm": 14285,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-TEL13",
+      "name": "Telangana",
+      "region": "Simulated",
+      "population": 7182866,
+      "area_sqkm": 14808,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-BIH14",
+      "name": "Bihar",
+      "region": "Simulated",
+      "population": 18653787,
+      "area_sqkm": 94944,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-KER15",
+      "name": "Kerala",
+      "region": "Simulated",
+      "population": 35520194,
+      "area_sqkm": 43043,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-MAD16",
+      "name": "Madhya Pradesh",
+      "region": "Simulated",
+      "population": 20455588,
+      "area_sqkm": 100627,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-AND17",
+      "name": "Andaman & Nicobar",
+      "region": "Simulated",
+      "population": 13706058,
+      "area_sqkm": 15267,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-GUJ18",
+      "name": "Gujarat",
+      "region": "Simulated",
+      "population": 29413088,
+      "area_sqkm": 8974,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-LAK19",
+      "name": "Lakshadweep",
+      "region": "Simulated",
+      "population": 48570097,
+      "area_sqkm": 8851,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-ODI20",
+      "name": "Odisha",
+      "region": "Simulated",
+      "population": 32243638,
+      "area_sqkm": 41909,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-DAD21",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "region": "Simulated",
+      "population": 16399156,
+      "area_sqkm": 16086,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-LAD22",
+      "name": "Ladakh",
+      "region": "Simulated",
+      "population": 37568357,
+      "area_sqkm": 77598,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-JAM23",
+      "name": "Jammu & Kashmir",
+      "region": "Simulated",
+      "population": 39495376,
+      "area_sqkm": 94088,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-CHH24",
+      "name": "Chhattisgarh",
+      "region": "Simulated",
+      "population": 11511286,
+      "area_sqkm": 9488,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-DEL25",
+      "name": "Delhi",
+      "region": "Simulated",
+      "population": 22159356,
+      "area_sqkm": 80188,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-GOA26",
+      "name": "Goa",
+      "region": "Simulated",
+      "population": 41683479,
+      "area_sqkm": 50131,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-HAR27",
+      "name": "Haryana",
+      "region": "Simulated",
+      "population": 33078769,
+      "area_sqkm": 5197,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-HIM28",
+      "name": "Himachal Pradesh",
+      "region": "Simulated",
+      "population": 33013053,
+      "area_sqkm": 91468,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-JHA29",
+      "name": "Jharkhand",
+      "region": "Simulated",
+      "population": 25747546,
+      "area_sqkm": 53462,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-TAM30",
+      "name": "Tamil Nadu",
+      "region": "Simulated",
+      "population": 3836625,
+      "area_sqkm": 58046,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-UTT31",
+      "name": "Uttar Pradesh",
+      "region": "Simulated",
+      "population": 36801925,
+      "area_sqkm": 18133,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-WES32",
+      "name": "West Bengal",
+      "region": "Simulated",
+      "population": 17465166,
+      "area_sqkm": 58906,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 1,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-AND33",
+      "name": "Andhra Pradesh",
+      "region": "Simulated",
+      "population": 6447954,
+      "area_sqkm": 4676,
+      "capital": "Simulated Capital",
+      "overall_status": "Warning",
+      "active_alerts_count": 2,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "ST-PUD34",
+      "name": "Puducherry",
+      "region": "Simulated",
+      "population": 30393428,
+      "area_sqkm": 87306,
+      "capital": "Simulated Capital",
+      "overall_status": "Normal",
+      "active_alerts_count": 0,
+      "last_updated": "2026-08-24T14:02:52.122Z"
+    }
+  ],
+  "Alert": [
+    {
+      "id": "ALT-001",
+      "type": "weather",
+      "severity": "critical",
+      "affected_states": [
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "message": "Severe cyclonic storm approaching coastal regions.",
+      "issued_at": "2026-08-24T08:00:00Z",
+      "expires_at": "2026-08-26T08:00:00Z"
+    },
+    {
+      "id": "ALT-ST-ARU0",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Arunachal Pradesh",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "issued_at": "2026-08-24T14:02:52.121Z",
+      "affected_states": [
+        "Arunachal Pradesh"
+      ]
+    },
+    {
+      "id": "ALT-ST-ASS1",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Assam",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "issued_at": "2026-08-24T14:02:52.121Z",
+      "affected_states": [
+        "Assam"
+      ]
+    },
+    {
+      "id": "ALT-ST-MAN4",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Manipur",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "issued_at": "2026-08-24T14:02:52.121Z",
+      "affected_states": [
+        "Manipur"
+      ]
+    },
+    {
+      "id": "ALT-ST-MEG5",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Meghalaya",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "issued_at": "2026-08-24T14:02:52.121Z",
+      "affected_states": [
+        "Meghalaya"
+      ]
+    },
+    {
+      "id": "ALT-ST-PUN8",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Punjab",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Punjab"
+      ]
+    },
+    {
+      "id": "ALT-ST-TEL13",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Telangana",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Telangana"
+      ]
+    },
+    {
+      "id": "ALT-ST-BIH14",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Bihar",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Bihar"
+      ]
+    },
+    {
+      "id": "ALT-ST-GUJ18",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Gujarat",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "id": "ALT-ST-DAD21",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Dadra and Nagar Haveli and Daman and Diu",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Dadra and Nagar Haveli and Daman and Diu"
+      ]
+    },
+    {
+      "id": "ALT-ST-LAD22",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Ladakh",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Ladakh"
+      ]
+    },
+    {
+      "id": "ALT-ST-CHH24",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Chhattisgarh",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Chhattisgarh"
+      ]
+    },
+    {
+      "id": "ALT-ST-DEL25",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Delhi",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Delhi"
+      ]
+    },
+    {
+      "id": "ALT-ST-GOA26",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Goa",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Goa"
+      ]
+    },
+    {
+      "id": "ALT-ST-HAR27",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Haryana",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Haryana"
+      ]
+    },
+    {
+      "id": "ALT-ST-HIM28",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Himachal Pradesh",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Himachal Pradesh"
+      ]
+    },
+    {
+      "id": "ALT-ST-UTT31",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Uttar Pradesh",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "id": "ALT-ST-AND33",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Andhra Pradesh",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "id": "ALT-ST-PUD34",
+      "type": "weather",
+      "severity": "warning",
+      "message": "Simulated prototype alert for Puducherry",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "issued_at": "2026-08-24T14:02:52.122Z",
+      "affected_states": [
+        "Puducherry"
+      ]
+    }
+  ],
+  "RainfallObservation": [
+    {
+      "station_id": "RS-KA-01",
+      "state": "Karnataka",
+      "lat": 13.9,
+      "lng": 75.6,
+      "recorded_at": "2026-08-24T10:00:00Z",
+      "precipitation_mm": 45.5,
+      "humidity_percent": 88
+    },
+    {
+      "id": "RN-ST-ARU0",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "precipitation_mm": 21,
+      "observation_date": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "RN-ST-ASS1",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "precipitation_mm": 66,
+      "observation_date": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "RN-ST-CHA2",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "precipitation_mm": 19,
+      "observation_date": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "RN-ST-MAN4",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "precipitation_mm": 94,
+      "observation_date": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "RN-ST-MEG5",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "precipitation_mm": 47,
+      "observation_date": "2026-08-24T14:02:52.121Z"
+    },
+    {
+      "id": "RN-ST-MIZ6",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "precipitation_mm": 2,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-NAG7",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "precipitation_mm": 96,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-PUN8",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "precipitation_mm": 44,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-RAJ9",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "precipitation_mm": 40,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-SIK10",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "precipitation_mm": 132,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-TRI11",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "precipitation_mm": 58,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-UTT12",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "precipitation_mm": 134,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-TEL13",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "precipitation_mm": 29,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-BIH14",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "precipitation_mm": 116,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-KER15",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "precipitation_mm": 24,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-MAD16",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "precipitation_mm": 41,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-AND17",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "precipitation_mm": 79,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-GUJ18",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "precipitation_mm": 78,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-LAK19",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "precipitation_mm": 136,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-ODI20",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "precipitation_mm": 6,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-DAD21",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "precipitation_mm": 146,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-LAD22",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "precipitation_mm": 133,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-JAM23",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "precipitation_mm": 51,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-CHH24",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "precipitation_mm": 135,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-DEL25",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "precipitation_mm": 85,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-GOA26",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "precipitation_mm": 80,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-HAR27",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "precipitation_mm": 95,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-HIM28",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "precipitation_mm": 95,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-JHA29",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "precipitation_mm": 30,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-TAM30",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "precipitation_mm": 71,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-UTT31",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "precipitation_mm": 5,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-WES32",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "precipitation_mm": 57,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-AND33",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "precipitation_mm": 135,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    },
+    {
+      "id": "RN-ST-PUD34",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "precipitation_mm": 63,
+      "observation_date": "2026-08-24T14:02:52.122Z"
+    }
+  ],
+  "LandslideEvent": [
+    {
+      "id": "LS-MH-01",
+      "state": "Maharashtra",
+      "lat": 18.5,
+      "lng": 73.8,
+      "risk_level": "high",
+      "reported_at": "2026-08-23T15:00:00Z",
+      "description": "Minor landslides reported on Mumbai-Pune expressway."
+    },
+    {
+      "id": "LS-ST-ARU0-0",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-ASS1-0",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHA2-0",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHA2-1",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHA2-2",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHA2-3",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MAN4-0",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MEG5-0",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MEG5-1",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MEG5-2",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MEG5-3",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.121Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MIZ6-0",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MIZ6-1",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MIZ6-2",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-NAG7-0",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-NAG7-1",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUN8-0",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUN8-1",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUN8-2",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUN8-3",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-RAJ9-0",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-RAJ9-1",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-RAJ9-2",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-SIK10-0",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-SIK10-1",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-SIK10-2",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-SIK10-3",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-TRI11-0",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-TRI11-1",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-TEL13-0",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-TEL13-1",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-TEL13-2",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-BIH14-0",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-BIH14-1",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-BIH14-2",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-BIH14-3",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-KER15-0",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-KER15-1",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-MAD16-0",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-AND17-0",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-AND17-1",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GUJ18-0",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GUJ18-1",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GUJ18-2",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-ODI20-0",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-ODI20-1",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-ODI20-2",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-ODI20-3",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DAD21-0",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DAD21-1",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-LAD22-0",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-LAD22-1",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JAM23-0",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JAM23-1",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHH24-0",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-CHH24-1",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DEL25-0",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DEL25-1",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DEL25-2",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-DEL25-3",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GOA26-0",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GOA26-1",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-GOA26-2",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HAR27-0",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HAR27-1",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HIM28-0",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HIM28-1",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HIM28-2",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-HIM28-3",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JHA29-0",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JHA29-1",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JHA29-2",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-JHA29-3",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-UTT31-0",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-UTT31-1",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-UTT31-2",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-UTT31-3",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-WES32-0",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-WES32-1",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-AND33-0",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUD34-0",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUD34-1",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUD34-2",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "LS-ST-PUD34-3",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "severity": "moderate",
+      "event_date": "2026-08-24T14:02:52.122Z",
+      "location": [
+        0,
+        0
+      ]
+    }
+  ],
+  "InfrastructureAsset": [
+    {
+      "id": "INF-KA-101",
+      "type": "power_station",
+      "name": "Raichur Thermal Power Station",
+      "state": "Karnataka",
+      "lat": 16.2,
+      "lng": 77.3,
+      "status": "operational",
+      "last_inspected": "2026-08-01T00:00:00Z"
+    },
+    {
+      "id": "INF-ST-ARU0-0",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ASS1-0",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ASS1-1",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ASS1-2",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ASS1-3",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ASS1-4",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHA2-0",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHA2-1",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHA2-2",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHA2-3",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHA2-4",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAN4-0",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAN4-1",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAN4-2",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAN4-3",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MEG5-0",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MEG5-1",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MEG5-2",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MIZ6-0",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MIZ6-1",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-NAG7-0",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-NAG7-1",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-NAG7-2",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUN8-0",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUN8-1",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUN8-2",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUN8-3",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUN8-4",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-RAJ9-0",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-RAJ9-1",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-RAJ9-2",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-SIK10-0",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-SIK10-1",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-SIK10-2",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-SIK10-3",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TRI11-0",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TRI11-1",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TRI11-2",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TRI11-3",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TRI11-4",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT12-0",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT12-1",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT12-2",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT12-3",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TEL13-0",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TEL13-1",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TEL13-2",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-BIH14-0",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-BIH14-1",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-BIH14-2",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-BIH14-3",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-BIH14-4",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-KER15-0",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-KER15-1",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-KER15-2",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-KER15-3",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAD16-0",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAD16-1",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-MAD16-2",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-AND17-0",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-AND17-1",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-AND17-2",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-AND17-3",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-GUJ18-0",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-LAK19-0",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ODI20-0",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ODI20-1",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ODI20-2",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ODI20-3",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-ODI20-4",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DAD21-0",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DAD21-1",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-LAD22-0",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-LAD22-1",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-LAD22-2",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-JAM23-0",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-JAM23-1",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-JAM23-2",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-JAM23-3",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-CHH24-0",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DEL25-0",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DEL25-1",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DEL25-2",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DEL25-3",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-DEL25-4",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-GOA26-0",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-GOA26-1",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-GOA26-2",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-HAR27-0",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-HIM28-0",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-HIM28-1",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-JHA29-0",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TAM30-0",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TAM30-1",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TAM30-2",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-TAM30-3",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT31-0",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT31-1",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT31-2",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-UTT31-3",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-WES32-0",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-WES32-1",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-WES32-2",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-AND33-0",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUD34-0",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUD34-1",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUD34-2",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUD34-3",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "type": "bridge",
+      "status": "operational"
+    },
+    {
+      "id": "INF-ST-PUD34-4",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "type": "bridge",
+      "status": "operational"
+    }
+  ],
+  "HistoricalRainfall": [
+    {
+      "state": "Karnataka",
+      "year": 2026,
+      "month": 7,
+      "average_mm": 350.2,
+      "anomaly_percent": 15
+    },
+    {
+      "id": "HR-ST-ARU0-2023",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 131
+    },
+    {
+      "id": "HR-ST-ARU0-2024",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 247
+    },
+    {
+      "id": "HR-ST-ARU0-2025",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 244
+    },
+    {
+      "id": "HR-ST-ASS1-2023",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 136
+    },
+    {
+      "id": "HR-ST-ASS1-2024",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 126
+    },
+    {
+      "id": "HR-ST-ASS1-2025",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 216
+    },
+    {
+      "id": "HR-ST-CHA2-2023",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 193
+    },
+    {
+      "id": "HR-ST-CHA2-2024",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 60
+    },
+    {
+      "id": "HR-ST-CHA2-2025",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 229
+    },
+    {
+      "id": "HR-ST-MAN4-2023",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 161
+    },
+    {
+      "id": "HR-ST-MAN4-2024",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 80
+    },
+    {
+      "id": "HR-ST-MAN4-2025",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 221
+    },
+    {
+      "id": "HR-ST-MEG5-2023",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 236
+    },
+    {
+      "id": "HR-ST-MEG5-2024",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 236
+    },
+    {
+      "id": "HR-ST-MEG5-2025",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 203
+    },
+    {
+      "id": "HR-ST-MIZ6-2023",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 216
+    },
+    {
+      "id": "HR-ST-MIZ6-2024",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 196
+    },
+    {
+      "id": "HR-ST-MIZ6-2025",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 62
+    },
+    {
+      "id": "HR-ST-NAG7-2023",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 237
+    },
+    {
+      "id": "HR-ST-NAG7-2024",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 180
+    },
+    {
+      "id": "HR-ST-NAG7-2025",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 144
+    },
+    {
+      "id": "HR-ST-PUN8-2023",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 70
+    },
+    {
+      "id": "HR-ST-PUN8-2024",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 173
+    },
+    {
+      "id": "HR-ST-PUN8-2025",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 157
+    },
+    {
+      "id": "HR-ST-RAJ9-2023",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 108
+    },
+    {
+      "id": "HR-ST-RAJ9-2024",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 126
+    },
+    {
+      "id": "HR-ST-RAJ9-2025",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 152
+    },
+    {
+      "id": "HR-ST-SIK10-2023",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 142
+    },
+    {
+      "id": "HR-ST-SIK10-2024",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 50
+    },
+    {
+      "id": "HR-ST-SIK10-2025",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 72
+    },
+    {
+      "id": "HR-ST-TRI11-2023",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 85
+    },
+    {
+      "id": "HR-ST-TRI11-2024",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 241
+    },
+    {
+      "id": "HR-ST-TRI11-2025",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 203
+    },
+    {
+      "id": "HR-ST-UTT12-2023",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 171
+    },
+    {
+      "id": "HR-ST-UTT12-2024",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 59
+    },
+    {
+      "id": "HR-ST-UTT12-2025",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 208
+    },
+    {
+      "id": "HR-ST-TEL13-2023",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 149
+    },
+    {
+      "id": "HR-ST-TEL13-2024",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 75
+    },
+    {
+      "id": "HR-ST-TEL13-2025",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 231
+    },
+    {
+      "id": "HR-ST-BIH14-2023",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 100
+    },
+    {
+      "id": "HR-ST-BIH14-2024",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 194
+    },
+    {
+      "id": "HR-ST-BIH14-2025",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 244
+    },
+    {
+      "id": "HR-ST-KER15-2023",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 159
+    },
+    {
+      "id": "HR-ST-KER15-2024",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 228
+    },
+    {
+      "id": "HR-ST-KER15-2025",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 157
+    },
+    {
+      "id": "HR-ST-MAD16-2023",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 199
+    },
+    {
+      "id": "HR-ST-MAD16-2024",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 157
+    },
+    {
+      "id": "HR-ST-MAD16-2025",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 167
+    },
+    {
+      "id": "HR-ST-AND17-2023",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 189
+    },
+    {
+      "id": "HR-ST-AND17-2024",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 212
+    },
+    {
+      "id": "HR-ST-AND17-2025",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 170
+    },
+    {
+      "id": "HR-ST-GUJ18-2023",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 159
+    },
+    {
+      "id": "HR-ST-GUJ18-2024",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 243
+    },
+    {
+      "id": "HR-ST-GUJ18-2025",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 228
+    },
+    {
+      "id": "HR-ST-LAK19-2023",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 160
+    },
+    {
+      "id": "HR-ST-LAK19-2024",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 94
+    },
+    {
+      "id": "HR-ST-LAK19-2025",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 105
+    },
+    {
+      "id": "HR-ST-ODI20-2023",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 65
+    },
+    {
+      "id": "HR-ST-ODI20-2024",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 113
+    },
+    {
+      "id": "HR-ST-ODI20-2025",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 94
+    },
+    {
+      "id": "HR-ST-DAD21-2023",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 131
+    },
+    {
+      "id": "HR-ST-DAD21-2024",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 158
+    },
+    {
+      "id": "HR-ST-DAD21-2025",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 239
+    },
+    {
+      "id": "HR-ST-LAD22-2023",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 127
+    },
+    {
+      "id": "HR-ST-LAD22-2024",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 192
+    },
+    {
+      "id": "HR-ST-LAD22-2025",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 89
+    },
+    {
+      "id": "HR-ST-JAM23-2023",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 70
+    },
+    {
+      "id": "HR-ST-JAM23-2024",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 216
+    },
+    {
+      "id": "HR-ST-JAM23-2025",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 191
+    },
+    {
+      "id": "HR-ST-CHH24-2023",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 181
+    },
+    {
+      "id": "HR-ST-CHH24-2024",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 216
+    },
+    {
+      "id": "HR-ST-CHH24-2025",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 65
+    },
+    {
+      "id": "HR-ST-DEL25-2023",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 154
+    },
+    {
+      "id": "HR-ST-DEL25-2024",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 120
+    },
+    {
+      "id": "HR-ST-DEL25-2025",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 183
+    },
+    {
+      "id": "HR-ST-GOA26-2023",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 86
+    },
+    {
+      "id": "HR-ST-GOA26-2024",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 78
+    },
+    {
+      "id": "HR-ST-GOA26-2025",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 134
+    },
+    {
+      "id": "HR-ST-HAR27-2023",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 72
+    },
+    {
+      "id": "HR-ST-HAR27-2024",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 242
+    },
+    {
+      "id": "HR-ST-HAR27-2025",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 204
+    },
+    {
+      "id": "HR-ST-HIM28-2023",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 153
+    },
+    {
+      "id": "HR-ST-HIM28-2024",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 209
+    },
+    {
+      "id": "HR-ST-HIM28-2025",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 157
+    },
+    {
+      "id": "HR-ST-JHA29-2023",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 83
+    },
+    {
+      "id": "HR-ST-JHA29-2024",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 79
+    },
+    {
+      "id": "HR-ST-JHA29-2025",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 148
+    },
+    {
+      "id": "HR-ST-TAM30-2023",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 194
+    },
+    {
+      "id": "HR-ST-TAM30-2024",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 71
+    },
+    {
+      "id": "HR-ST-TAM30-2025",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 160
+    },
+    {
+      "id": "HR-ST-UTT31-2023",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 78
+    },
+    {
+      "id": "HR-ST-UTT31-2024",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 182
+    },
+    {
+      "id": "HR-ST-UTT31-2025",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 149
+    },
+    {
+      "id": "HR-ST-WES32-2023",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 191
+    },
+    {
+      "id": "HR-ST-WES32-2024",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 135
+    },
+    {
+      "id": "HR-ST-WES32-2025",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 60
+    },
+    {
+      "id": "HR-ST-AND33-2023",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 77
+    },
+    {
+      "id": "HR-ST-AND33-2024",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 157
+    },
+    {
+      "id": "HR-ST-AND33-2025",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 244
+    },
+    {
+      "id": "HR-ST-PUD34-2023",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "year": 2023,
+      "month": 8,
+      "average_mm": 76
+    },
+    {
+      "id": "HR-ST-PUD34-2024",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "year": 2024,
+      "month": 8,
+      "average_mm": 123
+    },
+    {
+      "id": "HR-ST-PUD34-2025",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "year": 2025,
+      "month": 8,
+      "average_mm": 150
+    }
+  ],
+  "HistoricalInfrastructure": [
+    {
+      "state": "Karnataka",
+      "period": "month",
+      "period_value": "2026-07",
+      "uptime_percentage": 99.8,
+      "incidents_count": 3,
+      "maintenance_spend_lakhs": 150
+    },
+    {
+      "id": "HI-ST-ARU0-2023",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-ARU0-2024",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-ARU0-2025",
+      "state_id": "ST-ARU0",
+      "state_name": "Arunachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-ASS1-2023",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-ASS1-2024",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-ASS1-2025",
+      "state_id": "ST-ASS1",
+      "state_name": "Assam",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-CHA2-2023",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-CHA2-2024",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-CHA2-2025",
+      "state_id": "ST-CHA2",
+      "state_name": "Chandigarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-MAN4-2023",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-MAN4-2024",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-MAN4-2025",
+      "state_id": "ST-MAN4",
+      "state_name": "Manipur",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-MEG5-2023",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-MEG5-2024",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-MEG5-2025",
+      "state_id": "ST-MEG5",
+      "state_name": "Meghalaya",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-MIZ6-2023",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-MIZ6-2024",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-MIZ6-2025",
+      "state_id": "ST-MIZ6",
+      "state_name": "Mizoram",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-NAG7-2023",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-NAG7-2024",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-NAG7-2025",
+      "state_id": "ST-NAG7",
+      "state_name": "Nagaland",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-PUN8-2023",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-PUN8-2024",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-PUN8-2025",
+      "state_id": "ST-PUN8",
+      "state_name": "Punjab",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-RAJ9-2023",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-RAJ9-2024",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-RAJ9-2025",
+      "state_id": "ST-RAJ9",
+      "state_name": "Rajasthan",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-SIK10-2023",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 98
+    },
+    {
+      "id": "HI-ST-SIK10-2024",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-SIK10-2025",
+      "state_id": "ST-SIK10",
+      "state_name": "Sikkim",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-TRI11-2023",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-TRI11-2024",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-TRI11-2025",
+      "state_id": "ST-TRI11",
+      "state_name": "Tripura",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-UTT12-2023",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-UTT12-2024",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-UTT12-2025",
+      "state_id": "ST-UTT12",
+      "state_name": "Uttarakhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-TEL13-2023",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-TEL13-2024",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-TEL13-2025",
+      "state_id": "ST-TEL13",
+      "state_name": "Telangana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-BIH14-2023",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-BIH14-2024",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-BIH14-2025",
+      "state_id": "ST-BIH14",
+      "state_name": "Bihar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-KER15-2023",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-KER15-2024",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-KER15-2025",
+      "state_id": "ST-KER15",
+      "state_name": "Kerala",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-MAD16-2023",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-MAD16-2024",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-MAD16-2025",
+      "state_id": "ST-MAD16",
+      "state_name": "Madhya Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-AND17-2023",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-AND17-2024",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-AND17-2025",
+      "state_id": "ST-AND17",
+      "state_name": "Andaman & Nicobar",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-GUJ18-2023",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-GUJ18-2024",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-GUJ18-2025",
+      "state_id": "ST-GUJ18",
+      "state_name": "Gujarat",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-LAK19-2023",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 98
+    },
+    {
+      "id": "HI-ST-LAK19-2024",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-LAK19-2025",
+      "state_id": "ST-LAK19",
+      "state_name": "Lakshadweep",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-ODI20-2023",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-ODI20-2024",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-ODI20-2025",
+      "state_id": "ST-ODI20",
+      "state_name": "Odisha",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-DAD21-2023",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-DAD21-2024",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-DAD21-2025",
+      "state_id": "ST-DAD21",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-LAD22-2023",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-LAD22-2024",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-LAD22-2025",
+      "state_id": "ST-LAD22",
+      "state_name": "Ladakh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-JAM23-2023",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-JAM23-2024",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-JAM23-2025",
+      "state_id": "ST-JAM23",
+      "state_name": "Jammu & Kashmir",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-CHH24-2023",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-CHH24-2024",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-CHH24-2025",
+      "state_id": "ST-CHH24",
+      "state_name": "Chhattisgarh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 98
+    },
+    {
+      "id": "HI-ST-DEL25-2023",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-DEL25-2024",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-DEL25-2025",
+      "state_id": "ST-DEL25",
+      "state_name": "Delhi",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-GOA26-2023",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-GOA26-2024",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-GOA26-2025",
+      "state_id": "ST-GOA26",
+      "state_name": "Goa",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 96
+    },
+    {
+      "id": "HI-ST-HAR27-2023",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-HAR27-2024",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-HAR27-2025",
+      "state_id": "ST-HAR27",
+      "state_name": "Haryana",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-HIM28-2023",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-HIM28-2024",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 94
+    },
+    {
+      "id": "HI-ST-HIM28-2025",
+      "state_id": "ST-HIM28",
+      "state_name": "Himachal Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-JHA29-2023",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-JHA29-2024",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 92
+    },
+    {
+      "id": "HI-ST-JHA29-2025",
+      "state_id": "ST-JHA29",
+      "state_name": "Jharkhand",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-TAM30-2023",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 91
+    },
+    {
+      "id": "HI-ST-TAM30-2024",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-TAM30-2025",
+      "state_id": "ST-TAM30",
+      "state_name": "Tamil Nadu",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 98
+    },
+    {
+      "id": "HI-ST-UTT31-2023",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-UTT31-2024",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 95
+    },
+    {
+      "id": "HI-ST-UTT31-2025",
+      "state_id": "ST-UTT31",
+      "state_name": "Uttar Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-WES32-2023",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-WES32-2024",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 99
+    },
+    {
+      "id": "HI-ST-WES32-2025",
+      "state_id": "ST-WES32",
+      "state_name": "West Bengal",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-AND33-2023",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 93
+    },
+    {
+      "id": "HI-ST-AND33-2024",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-AND33-2025",
+      "state_id": "ST-AND33",
+      "state_name": "Andhra Pradesh",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 90
+    },
+    {
+      "id": "HI-ST-PUD34-2023",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2023",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-PUD34-2024",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2024",
+      "uptime_percentage": 97
+    },
+    {
+      "id": "HI-ST-PUD34-2025",
+      "state_id": "ST-PUD34",
+      "state_name": "Puducherry",
+      "asset_type": "all",
+      "period": "yearly",
+      "period_value": "2025",
+      "uptime_percentage": 97
+    }
+  ]
+}

@@ -17,6 +17,8 @@ const IndiaMap = dynamic(() => import("@/components/map/IndiaMap"), {
 import MapLayerLegend from "@/components/map/MapLayerLegend";
 import DetailPanel from "@/components/dashboard/DetailPanel";
 
+import StateIntelligencePanel from "@/components/dashboard/StateIntelligencePanel";
+
 import { useFilteredSignals } from "@/lib/useFilteredSignals";
 import { useSignalStats } from "@/lib/useSignalStats";
 import { useMapLayers } from "@/lib/map/useMapLayers";
@@ -45,6 +47,7 @@ export default function AuthenticatedHome({ user }: AuthenticatedHomeProps) {
 
   const stats = useSignalStats(filteredSignals);
   const [selectedSignal, setSelectedSignal] = useState<Signal | null>(null);
+  const [selectedStateName, setSelectedStateName] = useState<string | null>(null);
 
   const {
     layerStates,
@@ -77,6 +80,8 @@ export default function AuthenticatedHome({ user }: AuthenticatedHomeProps) {
         signals={filteredSignals}
         selectedSignal={selectedSignal}
         onSelectSignal={setSelectedSignal}
+        selectedStateName={selectedStateName}
+        onSelectState={setSelectedStateName}
         layerStates={layerStates}
       />
 
@@ -114,6 +119,14 @@ export default function AuthenticatedHome({ user }: AuthenticatedHomeProps) {
         userRole={user.role}
         onAction={handleAction}
       />
+
+      {/* 9. State Intelligence Panel */}
+      {selectedStateName && (
+        <StateIntelligencePanel 
+          stateName={selectedStateName} 
+          onClose={() => setSelectedStateName(null)} 
+        />
+      )}
     </div>
   );
 }

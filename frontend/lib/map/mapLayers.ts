@@ -65,7 +65,7 @@ export const MAP_LAYERS: DomeMapLayer[] = [
   {
     id: "landslide-risk",
     label: "Landslide Risk",
-    icon: "🏔",
+    icon: "🌋",
     type: "risk",
     sourceType: "geojson",
     available: false,
@@ -86,7 +86,7 @@ export const MAP_LAYERS: DomeMapLayer[] = [
   {
     id: "roads-logistics",
     label: "Roads & Logistics",
-    icon: "🛣",
+    icon: "🛣️",
     type: "line",
     sourceType: "vector",
     available: false,
@@ -98,7 +98,7 @@ export const MAP_LAYERS: DomeMapLayer[] = [
   {
     id: "emergency-resources",
     label: "Emergency Resources",
-    icon: "🚑",
+    icon: "🏥",
     type: "point",
     sourceType: "geojson",
     available: false,
@@ -110,7 +110,7 @@ export const MAP_LAYERS: DomeMapLayer[] = [
   {
     id: "rainfall-weather",
     label: "Rainfall & Weather",
-    icon: "☁",
+    icon: "🌧️",
     type: "weather",
     sourceType: "api",
     available: false,
@@ -131,7 +131,7 @@ export const MAP_LAYERS: DomeMapLayer[] = [
   {
     id: "terrain",
     label: "Terrain",
-    icon: "⛰",
+    icon: "⛰️",
     type: "terrain",
     sourceType: "raster",
     available: false,

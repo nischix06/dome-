@@ -71,6 +71,8 @@ interface IndiaMapProps {
   signals: Signal[];
   selectedSignal: Signal | null;
   onSelectSignal: (signal: Signal | null) => void;
+  selectedStateName?: string | null;
+  onSelectState?: (stateName: string | null) => void;
   layerStates: Record<string, boolean>;
 }
 
@@ -114,6 +116,8 @@ export default function IndiaMap({
   signals,
   selectedSignal,
   onSelectSignal,
+  selectedStateName,
+  onSelectState,
   layerStates,
 }: IndiaMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -122,6 +126,7 @@ export default function IndiaMap({
   const [styleLoaded, setStyleLoaded] = useState<boolean>(false);
   const hoverSignalIdRef = useRef<string | null>(null);
   const selectedSignalIdRef = useRef<string | null>(null);
+  const selectedStateIdRef = useRef<number | null>(null);
 
   const logDebug = (msg: string) => {
     console.log("[MapDebug] " + msg);
@@ -130,11 +135,13 @@ export default function IndiaMap({
   const geoJSONRef = useRef(geoJSON);
   const signalsRef = useRef(signals);
   const onSelectSignalRef = useRef(onSelectSignal);
+  const onSelectStateRef = useRef(onSelectState);
 
   useEffect(() => {
     geoJSONRef.current = geoJSON;
     signalsRef.current = signals;
     onSelectSignalRef.current = onSelectSignal;
+    onSelectStateRef.current = onSelectState;
   });
 
   useEffect(() => {
@@ -313,7 +320,14 @@ export default function IndiaMap({
           },
           paint: {
             "fill-color": "#3FE0B0",
-            "fill-opacity": 0.03,
+            "fill-opacity": [
+              "case",
+              ["boolean", ["feature-state", "selected"], false],
+              0.15,
+              ["boolean", ["feature-state", "hover"], false],
+              0.08,
+              0.03
+            ],
           },
         });
 
@@ -383,7 +397,11 @@ export default function IndiaMap({
         logDebug("Layers order: " + map.getStyle().layers.map(l => l.id).join(", "));
       }
 
-      // 2. Add Clustered Signals GeoJSON Source
+
+      // Thematic data (landslide, roads, rainfall, terrain, population) is
+      // presented in the State Intelligence Panel, not as map overlays.
+
+      // 3. Add Clustered Signals GeoJSON Source
       if (!map.getSource("signals-source")) {
         map.addSource("signals-source", {
           type: "geojson",
@@ -649,6 +667,16 @@ export default function IndiaMap({
       }
     };
 
+    const onClickStates = (e: MapLayerMouseEvent) => {
+      if (e.features && e.features.length > 0) {
+        const feature = e.features[0];
+        const stateName = feature.properties?.ST_NM;
+        if (onSelectStateRef.current && stateName) {
+          onSelectStateRef.current(stateName);
+        }
+      }
+    };
+
     map.on("idle", onMapIdle);
     map.on("click", "clusters", onClusterClick);
     map.on("click", "unclustered-point-glow", onPointClick);
@@ -656,6 +684,7 @@ export default function IndiaMap({
     map.on("mouseleave", "unclustered-point-glow", onMouseLeaveGlow);
     map.on("mousemove", "dome-india-state-fills", onMouseMoveStates);
     map.on("mouseleave", "dome-india-state-fills", onMouseLeaveStates);
+    map.on("click", "dome-india-state-fills", onClickStates);
 
     return () => {
       setStyleLoaded(false);
@@ -668,10 +697,46 @@ export default function IndiaMap({
       map.off("mouseleave", "unclustered-point-glow", onMouseLeaveGlow);
       map.off("mousemove", "dome-india-state-fills", onMouseMoveStates);
       map.off("mouseleave", "dome-india-state-fills", onMouseLeaveStates);
+      map.off("click", "dome-india-state-fills", onClickStates);
       map.remove();
       mapRef.current = null;
     };
   }, []);
+
+  // Sync selected state feature-state safely when selectedStateName prop changes
+  useEffect(() => {
+    if (!mapRef.current || !styleLoaded || !mapRef.current.isStyleLoaded()) {
+      return;
+    }
+    const map = mapRef.current;
+    if (!map.getSource("dome-india-states")) return;
+
+    // Reset previous selection
+    if (selectedStateIdRef.current !== null) {
+      map.setFeatureState(
+        { source: "dome-india-states", id: selectedStateIdRef.current },
+        { selected: false }
+      );
+      selectedStateIdRef.current = null;
+    }
+
+    if (selectedStateName) {
+      // Find the state feature by ST_NM property using MapLibre's loaded source features
+      // so we get the auto-generated id.
+      const features = map.querySourceFeatures("dome-india-states");
+      const targetFeature = features.find(
+        (f) => f.properties?.ST_NM === selectedStateName
+      );
+      
+      if (targetFeature && targetFeature.id !== undefined) {
+        selectedStateIdRef.current = targetFeature.id as number;
+        map.setFeatureState(
+          { source: "dome-india-states", id: targetFeature.id },
+          { selected: true }
+        );
+      }
+    }
+  }, [selectedStateName, styleLoaded]);
 
   const sendFrontendDebugReport = () => {
     if (!mapRef.current) return;
