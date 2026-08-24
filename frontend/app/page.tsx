@@ -6,9 +6,10 @@ export default function Home() {
     <div className={styles.container}>
       {/* Header */}
       <header className={styles.header}>
-        <div className={styles.logo}>
-          <span>DOME</span>
-        </div>
+        <Link href="/" className={styles.logo}>
+          <span className={styles.logoBadge}>D</span>
+          <span className={styles.logoText}>DOME</span>
+        </Link>
         <nav className={styles.navLinks}>
           <Link href="/login" className={styles.btnSecondary}>
             Login
@@ -64,42 +65,44 @@ export default function Home() {
 
       {/* How Dome Works */}
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>How Dome Works</h2>
-        <p className={styles.sectionSubtitle}>
-          A seamless 4-step workflow connecting public reporting to government resolution.
-        </p>
+        <div className={styles.sectionInner}>
+          <h2 className={styles.sectionTitle}>How Dome Works</h2>
+          <p className={styles.sectionSubtitle}>
+            A seamless 4-step workflow connecting public reporting to government resolution.
+          </p>
 
-        <div className={styles.workflowGrid}>
-          <div className={styles.stepCard}>
-            <div className={styles.stepNumber}>1</div>
-            <h3 className={styles.stepTitle}>Report</h3>
-            <p className={styles.stepDesc}>
-              Citizens log civic issues with location details and descriptions.
-            </p>
-          </div>
+          <div className={styles.workflowGrid}>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>1</div>
+              <h3 className={styles.stepTitle}>Report</h3>
+              <p className={styles.stepDesc}>
+                Citizens log civic issues with location details and descriptions.
+              </p>
+            </div>
 
-          <div className={styles.stepCard}>
-            <div className={styles.stepNumber}>2</div>
-            <h3 className={styles.stepTitle}>Review</h3>
-            <p className={styles.stepDesc}>
-              Smart verification routes tickets to the appropriate department.
-            </p>
-          </div>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>2</div>
+              <h3 className={styles.stepTitle}>Review</h3>
+              <p className={styles.stepDesc}>
+                Smart verification routes tickets to the appropriate department.
+              </p>
+            </div>
 
-          <div className={styles.stepCard}>
-            <div className={styles.stepNumber}>3</div>
-            <h3 className={styles.stepTitle}>Resolve</h3>
-            <p className={styles.stepDesc}>
-              Government officials verify and update progress directly on the panel.
-            </p>
-          </div>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>3</div>
+              <h3 className={styles.stepTitle}>Resolve</h3>
+              <p className={styles.stepDesc}>
+                Government officials verify and update progress directly on the panel.
+              </p>
+            </div>
 
-          <div className={styles.stepCard}>
-            <div className={styles.stepNumber}>4</div>
-            <h3 className={styles.stepTitle}>Track</h3>
-            <p className={styles.stepDesc}>
-              Live public tracking provides full transparency from start to finish.
-            </p>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>4</div>
+              <h3 className={styles.stepTitle}>Track</h3>
+              <p className={styles.stepDesc}>
+                Live public tracking provides full transparency from start to finish.
+              </p>
+            </div>
           </div>
         </div>
       </section>
